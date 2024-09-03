@@ -1,5 +1,5 @@
 ---
-title: Tina Cloud Starter
+title: My AI blog
 blocks:
   - headline: My AI Blog
     text: >
@@ -35,7 +35,7 @@ blocks:
         icon: false
         link: /posts
     image:
-      src: /uploads/main/unsplash-75EFpyXu3Wg.jpg
+      src: /uploads/main/Diagram.png
       alt: >-
         Photo of palm trees at sunset by Adam Birkett -
         unsplash.com/photos/75EFpyXu3Wg
@@ -73,3 +73,4 @@ blocks:
     color: primary
     _template: testimonial
 ---
+
