@@ -1,7 +1,7 @@
 ---
 title: Tina Cloud Starter
 blocks:
-  - headline: Vanden IT
+  - headline: My AI Blog
     text: >
       ## **Editors**
 
