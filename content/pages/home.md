@@ -1,7 +1,7 @@
 ---
-title: My AI blog
+title: My Meal Planner
 blocks:
-  - headline: My AI Blog
+  - headline: My Meal Planner
     text: >
       ## **Editors**
 
@@ -73,4 +73,3 @@ blocks:
     color: primary
     _template: testimonial
 ---
-
