@@ -35,10 +35,8 @@ blocks:
         icon: false
         link: /posts
     image:
-      src: /uploads/main/Diagram.png
-      alt: >-
-        Photo of palm trees at sunset by Adam Birkett -
-        unsplash.com/photos/75EFpyXu3Wg
+      src: /uploads/20240903_200955.jpg
+      alt: 'Sushi '
     color: default
     _template: hero
   - items:
@@ -73,3 +71,4 @@ blocks:
     color: primary
     _template: testimonial
 ---
+
