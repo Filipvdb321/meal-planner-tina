@@ -35,6 +35,7 @@ tags:
 
 - Bak de fijngesneden broccoli samen met de spinazie, kurkuma en oregano in een pan tot de broccoli zacht is. Zet het even apart.
 - Meng de eieren, room, oregano, melk, knoflook, Philadelphia en zout in een kom tot een mengsel van 600 ml totaal.
+- Mix het bovenstaande
 - Voeg de fijngehakte munt en olijven toe aan het mengsel.
 - Voeg de feta toe aan het mengsel, maar zorg ervoor dat de blokjes heel blijven en niet te klein zijn.
 - Knijp het bakpapier nat, prop het en leg het in de bakvorm.
