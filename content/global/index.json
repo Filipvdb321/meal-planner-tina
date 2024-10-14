@@ -1,8 +1,8 @@
 {
   "header": {
     "icon": {
-      "name": "Tina",
-      "color": "orange",
+      "name": "VandenIT",
+      "color": "amber",
       "style": "float"
     },
     "name": "My Meal Planner",
@@ -31,8 +31,9 @@
     }
   },
   "theme": {
-    "color": "blue",
-    "font": "lato",
+    "accentCol": "amber",
+    "greyColor": "slate",
+    "font": "nunito",
     "darkMode": "dark"
   }
 }
