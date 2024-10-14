@@ -1,8 +1,11 @@
 import type { Collection } from "tinacms";
 import { heroBlockSchema } from "../../components/blocks/hero";
 import { contentBlockSchema } from "../../components/blocks/content";
-import { testimonialBlockSchema } from "../../components/blocks/testimonial";
 import { featureBlockSchema } from "../../components/blocks/features";
+import { avatarBlockSchema } from "../../components/blocks/avatar";
+import { testimonialsBlockSchema } from "../../components/blocks/testimonial-carousel";
+import { portfolioBlockSchema } from "../../components/blocks/portfolio-carousel";
+import { actionsBlockSchema } from "../../components/blocks/action-block";
 
 const Page: Collection = {
   label: "Pages",
@@ -15,6 +18,9 @@ const Page: Collection = {
       }
       if (document._sys.filename === "about") {
         return `/about`;
+      }
+      if (document._sys.filename === "fullcv") {
+        return `/fullcv`;
       }
       return undefined;
     },
@@ -39,10 +45,13 @@ const Page: Collection = {
       },
       templates: [
         heroBlockSchema,
+        avatarBlockSchema,
         //@ts-ignore
         featureBlockSchema,
         contentBlockSchema,
-        testimonialBlockSchema,
+        testimonialsBlockSchema,
+        portfolioBlockSchema,
+        actionsBlockSchema,
       ],
     },
   ],

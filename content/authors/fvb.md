@@ -1,4 +1,4 @@
 ---
 name: Filip
-avatar: /uploads/main/llama-2.avif
+avatar: /uploads/main/unnamed.jpg
 ---

@@ -1,50 +1,41 @@
 import React from "react";
 import { wrapFieldsWithMeta } from "tinacms";
-
-export const colorOptions = [
-  "blue",
-  "teal",
-  "green",
-  "yellow",
-  "orange",
-  "red",
-  "pink",
-  "purple",
-  "white",
+import styled, { ThemeProvider } from 'styled-components';
+// import all colors from the radix-ui theme
+import * as colors from "@radix-ui/colors";
+export const colorOptions = ["gray", "gold", "bronze", "brown", "yellow", "amber",
+  "orange", "tomato", "red", "ruby", "crimson", "pink", "plum", "purple", "violet", "iris", "indigo", "blue", "cyan", "teal", "jade", "green", "grass", "lime", "mint", "sky"
 ];
 
+export const greyOptions = ["auto", "gray", "mauve", "slate", "sage", "olive", "sand"];
+
+const Button = styled.button`
+  background-color: ${(props) => props.color};
+  width: 2.25rem; /* Equivalent to w-9 */
+  height: 2.25rem; /* Equivalent to h-9 */
+  border-radius: 9999px; /* Equivalent to rounded-full */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06); /* Equivalent to shadow */
+  border: 1px solid #e5e7eb; /* Equivalent to border, using a neutral color */
+`;
+
 export const ColorPickerInput = wrapFieldsWithMeta(({ input }) => {
-  const inputClasses = {
-    blue: "bg-blue-500 border-blue-600",
-    teal: "bg-teal-500 border-teal-600",
-    green: "bg-green-500 border-green-600",
-    yellow: "bg-yellow-500 border-yellow-600",
-    orange: "bg-orange-500 border-orange-600",
-    red: "bg-red-500 border-red-600",
-    pink: "bg-pink-500 border-pink-600",
-    purple: "bg-purple-500 border-purple-600",
-    white: "bg-white border-gray-150",
-  };
+  // dark toggle
 
   return (
     <>
       <input type="text" id={input.name} className="hidden" {...input} />
       <div className="flex gap-2 flex-wrap">
         {colorOptions.map((color) => {
+          const finalColor = colors[color][`${color}9`];
           return (
-            <button
+            <Button
               key={color}
-              className={`w-9 h-9 rounded-full shadow border ${
-                inputClasses[color]
-              } ${
-                input.value === color
-                  ? "ring-[3px] ring-offset-2 ring-blue-400"
-                  : ""
-              }`}
+              title={color}
+              color={finalColor}
               onClick={() => {
                 input.onChange(color);
               }}
-            ></button>
+            ></Button>
           );
         })}
       </div>
