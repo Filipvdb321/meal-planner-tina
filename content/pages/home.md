@@ -1,20 +1,18 @@
 ---
 title: My Meal Planner
 blocks:
-  - tagLine: My Meal Planner
-    headline: >-
-      Your number 1 meal planner
-    text:
-    text2:
+  - tagline: Your number 1 meal planner
+    headline: All recipies organised
+    text: ''
+    text2: ''
     actions:
-      - label: Get Started
+      - label: View recipies
         type: button
         icon: true
-        link: /about
-      - label: View recipies
-        type: link
-        icon: false
         link: /posts
+    image:
+      src: /uploads/main/peopleimage.webp
+      alt: people cooking
     color: default
     _template: hero
   - title: Services
@@ -29,7 +27,7 @@ blocks:
           secure, and scalable software solutions for complex systems, with a
           strong focus on performance, security, and integration across the
           development lifecycle.
-        richText: ""
+        richText: ''
       - icon:
           name: CodeIcon
           color: yellow
@@ -37,7 +35,7 @@ blocks:
         text: >-
           Tailored software solutions designed to meet your specific business
           needs, ensuring scalability, performance, and flexibility.
-        richText: ""
+        richText: ''
       - icon:
           name: FaPuzzlePiece
           color: blue
@@ -46,7 +44,7 @@ blocks:
           Integrate the power of open source technologies into your business
           systems to reduce costs, increase flexibility, and ensure continuous
           innovation.
-        richText: ""
+        richText: ''
       - icon:
           name: FaCloud
           color: lightblue
@@ -54,7 +52,7 @@ blocks:
         text: >-
           Implement robust cloud solutions and DevOps practices to enhance
           deployment speed, maintainability, and security of your applications.
-        richText: ""
+        richText: ''
       - icon:
           name: FaExchangeAlt
           color: green
@@ -63,6 +61,7 @@ blocks:
           Develop and integrate APIs that enable seamless communication between
           different software systems, ensuring data consistency and operational
           efficiency.
-        richText: ""
+        richText: ''
     _template: features
 ---
+

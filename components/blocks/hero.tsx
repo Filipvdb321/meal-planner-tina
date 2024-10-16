@@ -5,34 +5,42 @@ import { PageBlocksHero } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
 import { Actions } from "./actions";
 import { Box, Flex, Heading, Text } from "@radix-ui/themes";
+import styles from './Hero.module.css';
 
-export const Hero = ({ data }: { data: PageBlocksHero }) => {
-
-  return (
-    <Box p={{ initial: '0', sm: '4' }} pb="5" pt="5">
+export const Hero = ({ data }: { data: PageBlocksHero}) => (
+  <Box className={styles.hero} style={{ backgroundImage: `url(${data.image?.src})` }}>
+    <Box position="relative" >
+      {/* Hero Heading */}
+      <Heading
+        as="h1"
+        size={{ initial: '6', sm: '9' }}
+        mb="4"
+        data-tina-field={tinaField(data, 'tagline')}
+      >
+        {data.tagline}
+      </Heading>
       <Box>
-        {/* Hero Heading */}
-        <Heading as="h1" size={{ initial: '6', sm: '9' }} mb="4" data-tina-field={tinaField(data, 'tagline')}>
-          {data.tagline}
-        </Heading>
-        <Box>
-          <Text as="p" size={{ sm: '4', md: '5' }} mb="6" data-tina-field={tinaField(data, 'headline')}  >
-            {data.headline}
-          </Text>
-        </Box>
+        <Text
+          as="p"
+          size={{ sm: '4', md: '5' }}
+          mb="6"
+          data-tina-field={tinaField(data, 'headline')}
+        >
+          {data.headline}
+        </Text>
       </Box>
-
-      {/* Call to Action Button */}
-      {data.actions && (
-        <Flex mt="6" align="center" justify="center">
-          <Actions
-            actions={data.actions}
-          />
-        </Flex>
-      )}
     </Box>
-  );
-};
+
+    {/* Call to Action Button */}
+    {data.actions && (
+      <Flex mt="6" align="center" justify="center">
+        <Actions actions={data.actions} />
+      </Flex>
+    )}
+
+  </Box>
+);
+
 
 export const heroBlockSchema: Template = {
   name: "hero",

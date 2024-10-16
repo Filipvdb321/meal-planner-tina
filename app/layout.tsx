@@ -1,9 +1,10 @@
 import '@radix-ui/themes/styles.css';
+import '../styles.css'
 import React from "react";
 import { ThemeProvider } from "../components/theme-provider";
 import { Metadata } from "next";
 import client from "../tina/__generated__/client";
-import { Theme } from "@radix-ui/themes";
+import { Box, Theme } from "@radix-ui/themes";
 import Head from 'next/head';
 
 export const metadata: Metadata = {
@@ -30,15 +31,26 @@ export default async function RootLayout({
           forcedTheme={global.theme.darkMode}
         >
           <Theme
-            accentColor={global.theme.accentCol || "blue" as any}
+            accentColor={"green" as any}
             grayColor={global.theme.greyColor || "gray" as any}
-            panelBackground="solid"
+            panelBackground="translucent"
             scaling="100%"
             radius="full">
+            <Box
+              style={{
+                position: "absolute",
+                left: 0,
+                right: 0,
+                height: 480,
+                opacity: 0.6,
+                background:
+                  "linear-gradient(to bottom, var(--accent-4), transparent)",
+              }}
+            ></Box>
             {children}
           </Theme>
         </ThemeProvider>
       </body>
-    </html>
+    </html >
   );
 }
