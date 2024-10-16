@@ -7,7 +7,14 @@
   min-height: 400px;
 
   .overlay {
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Verhoog de opacity */
+  }
+
+  .textShadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .heroBox {
+    z-index: 1;
   }
 }

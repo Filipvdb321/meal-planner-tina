@@ -7,37 +7,50 @@ import { Actions } from "./actions";
 import { Box, Flex, Heading, Text } from "@radix-ui/themes";
 import styles from './Hero.module.css';
 
-export const Hero = ({ data }: { data: PageBlocksHero}) => (
+export const Hero = ({ data }: { data: PageBlocksHero }) => (
   <Box className={styles.hero} style={{ backgroundImage: `url(${data.image?.src})` }}>
-    <Box position="relative" >
+    <Box position="relative" className={styles.heroBox}>
       {/* Hero Heading */}
       <Heading
         as="h1"
         size={{ initial: '6', sm: '9' }}
         mb="4"
+        color="green"
+        className={styles.textShadow}
         data-tina-field={tinaField(data, 'tagline')}
       >
         {data.tagline}
       </Heading>
       <Box>
-        <Text
-          as="p"
-          size={{ sm: '4', md: '5' }}
-          mb="6"
+        <Heading
+          as="h2"
+          size={{ initial: '4', sm: '7' }}
+          mb="4"
+          color="green"
+          className={styles.textShadow}
           data-tina-field={tinaField(data, 'headline')}
         >
           {data.headline}
-        </Text>
+        </Heading>
       </Box>
     </Box>
 
     {/* Call to Action Button */}
     {data.actions && (
-      <Flex mt="6" align="center" justify="center">
-        <Actions actions={data.actions} />
+      <Flex mt="6" align="center" justify="center" >
+        <Box className={styles.heroBox}>
+          <Actions actions={data.actions} />
+        </Box>
       </Flex>
     )}
-
+    <Box
+      position="absolute"
+      top="0"
+      left="0"
+      width="100%"
+      height="100%"
+      className={styles.overlay}
+    />
   </Box>
 );
 
