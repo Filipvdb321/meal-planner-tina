@@ -1,0 +1,87 @@
+---
+title: Flatbread met Bloemkoolnuggets en Knoflooksaus
+heroImg:
+excerpt: >
+Flatbread, bloemkoolnuggets en knoflooksaus: een heerlijke en makkelijke combinatie voor een smakelijke maaltijd!
+author: content/authors/fvb.md
+date: 2024-12-06T07:00:00.000Z
+tags:
+  - vegetarisch
+  - makkelijk
+  - comfortfood
+---
+
+# Flatbread met Bloemkoolnuggets en Knoflooksaus
+
+Flatbread, bloemkoolnuggets en knoflooksaus zijn de perfecte combinatie. Serveer met wat rode ui voor een frisse touch.
+
+- **Voorbereidingstijd:** 20 minuten
+- **Kooktijd:** 25 minuten
+- **Totale tijd:** 45 minuten
+- **Gang:** Hoofdgerecht, Snack
+- **Keuken:** Fusion
+- **Porties:** 4
+
+## Ingrediënten
+
+### Flatbread
+
+- 350 g zelfrijzend bakmeel
+- 200 ml Griekse yoghurt
+- Snufje zout
+- Beetje olie (voor het bakken)
+
+### Bloemkoolnuggets
+
+- 100 g maïsmeel (instant)
+- 200 ml water
+- 2 eetlepels olijfolie
+- 1 theelepel zout
+- 1 theelepel peper
+- 1 theelepel paprikapoeder
+- 1 theelepel komijn
+- 1 theelepel koriander
+- 1 theelepel kurkuma
+- 1 theelepel cayennepeper
+- 1 theelepel knoflookpoeder
+- 1 bloemkool, in kleine roosjes verdeeld
+- Optioneel: extra olijfolie om te besprenkelen
+
+### Knoflooksaus
+
+- 150 ml Griekse yoghurt
+- 2 eetlepels olijfolie
+- 1 theelepel zout
+- Handvol muntblaadjes, fijngehakt
+- 1 teen knoflook, uitgeperst
+
+### Extra
+
+- Schijfjes rode ui (voor serveren)
+
+## Instructies
+
+### Flatbread
+
+1. Meng het zelfrijzend bakmeel, Griekse yoghurt en een snufje zout in een kom.
+2. Kneed het mengsel tot een soepel deeg.
+3. Verdeel het deeg in 6 gelijke stukken en rol deze uit tot dunne plakken.
+4. Verhit een koekenpan met een beetje olie op middelhoog vuur.
+5. Bak de flatbreads één voor één tot ze opbollen en lichtbruin kleuren aan beide kanten.
+
+### Bloemkoolnuggets
+
+1. Meng het maïsmeel met water, olijfolie, zout, peper, paprikapoeder, komijn, koriander, kurkuma, cayennepeper en knoflookpoeder in een kom tot een glad beslag.
+2. Haal de bloemkoolroosjes door het beslag zodat ze goed bedekt zijn.
+3. Leg de roosjes op een met bakpapier beklede bakplaat en besprenkel eventueel met extra olijfolie.
+4. Bak in een voorverwarmde oven op 220°C gedurende 20-25 minuten, tot ze gaar en krokant zijn.
+
+### Knoflooksaus
+
+1. Meng de Griekse yoghurt, olijfolie, zout en fijngehakte muntblaadjes in een kom.
+2. Pers de knoflookteen erin uit en meng goed.
+
+### Serveren
+
+1. Serveer de flatbreads met de knoflooksaus, bloemkoolnuggets en schijfjes rode ui.
+2. Eet smakelijk!
